@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Title';
+    src: url(./Caramel/Caramel-Regular.ttf);
+}
+@font-face {
+    font-family: 'Number';
+    src: url(./Comforter/Comforter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url(./Cormorant_Infant/CormorantInfant-Light.ttf);
+}
+@font-face {
+    font-family: 'Medium';
+    src: url(./Cormorant_Infant/CormorantInfant-Medium.ttf);
+}
+@font-face {
+    font-family: 'Regular';
+    src: url(./Cormorant_Infant/CormorantInfant-Regular.ttf);
+}
+@font-face {
+    font-family: 'Semibold';
+    src: url(./Cormorant_Infant/CormorantInfant-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Bold';
+    src: url(./Cormorant_Infant/CormorantInfant-Bold.ttf);
+}
+

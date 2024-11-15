@@ -1,0 +1,71 @@
+.Photopage {
+    min-height: auto;
+    padding-top: 150px;
+}
+.Photopage-Verse {
+    font-family: "Title";
+    font-size: 75px;
+    color: #5D768A;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Photopage-Photos {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Photopage-Photos img {
+    margin-right: 0.5px;
+    margin-left: 0.5px;
+}
+@media screen and (max-width: 2000px) {
+    .Photopage {
+        padding-top: 100px;
+    }
+    .Photopage-Verse {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .Photopage-Photos {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Photopage-Photos {
+        width: 100%;
+    }
+    .Photopage-Verse {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Photopage {
+        min-height: auto;
+        padding-top: 75px;
+    }
+    .Photopage-Verse {
+        margin: 0 auto;
+        width: 95%;
+        font-size: 40px;
+    }
+    .Photopage-Photos {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .Photopage-Photos img {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0.5px;
+        margin-bottom: 0.5px;
+        
+    }
+}

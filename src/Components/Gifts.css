@@ -1,0 +1,209 @@
+.Gifts {
+    padding-top: 300px;
+}
+.Gifts-Title {
+    font-family: "Title";
+    font-size: 75px;
+    color: #5D768A;
+    text-align: center;
+}
+.Gifts-Content {
+    align-items: center;
+    margin-top: 175px;
+    width: 100%;
+    height: 550px;
+    background-color: #919F8E;
+    display: flex;
+}
+.Gifts-Content-Info {
+    background-color: #919F8E;
+    padding-left: 400px;
+}
+.Gifts-Content-Text{
+    width: 800px;
+    background-color: #919F8E;
+    font-family: "Regular";
+    font-size: 40px;
+    color: #EFF6F3;
+    padding-bottom: 50px;
+}
+.Gifts-Content-Signature {
+    background-color: #919F8E;
+    font-family: "Title";
+    color: #EFF6F3;
+    font-size: 75px;
+}
+.Gifts-Picture {
+    position: absolute;
+    right: 400px;
+}
+@media screen and (max-width: 2450px) {
+    .Gifts-Content-Info {
+        padding-left: 250px;
+    }
+    .Gifts-Picture {
+        right: 250px;
+    }
+}
+@media screen and (max-width: 2150px) {
+    .Gifts-Content-Info {
+        padding-left: 150px;
+    }
+    .Gifts-Picture {
+        right: 150px;
+    }
+}
+@media screen and (max-width: 2000px) {
+    .Gifts-Content {
+        margin-top: 150px;
+        height: 450px;
+    }
+    .Gifts-Title {
+        font-size: 60px;
+    }
+    .Gifts-Content-Info {
+        padding-left: 275px;
+    }
+    .Gifts-Content-Text{
+        width: 600px;
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+    .Gifts-Content-Signature {
+        font-size: 60px;
+    }
+    .Gifts-Picture {
+        right: 275px;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 1900px) {
+    .Gifts-Content-Info {
+        padding-left: 225px;
+    }
+    .Gifts-Picture {
+        right: 225px;
+    }
+}
+@media screen and (max-width: 1800px) {
+    .Gifts-Content-Info {
+        padding-left: 175px;
+    }
+    .Gifts-Picture {
+        right: 175px;
+    }
+}
+@media screen and (max-width: 1700px) {
+    .Gifts-Content-Info {
+        padding-left: 125px;
+    }
+    .Gifts-Picture {
+        right: 125px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .Gifts-Content-Info {
+        padding-left: 75px;
+    }
+    .Gifts-Picture {
+        right: 75px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .Gifts-Picture {
+        right: 0px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .Gifts-Content {
+        margin-top: 100px;
+        height: 400px;
+    }
+    .Gifts-Picture {
+        height: 550px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .Gifts-Content-Text{
+        width: 500px;
+    }
+    .Gifts-Content-Info {
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .Gifts {
+        padding-top: 300px;
+    }
+    .Gifts-Content {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 75px;
+        height: auto;
+    }
+    .Gifts-Content-Info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 75px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+    .Gifts-Content-Text{
+        width: 60%;
+        padding-bottom: 30px;
+    }
+    .Gifts-Content-Signature {
+        padding-right: 10px;
+        
+    }
+    .Gifts-Picture {
+        position: relative;
+
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Gifts {
+        padding-top: 100px;
+    }
+    .Gifts-Title {
+        font-size: 55px;
+    }
+    .Gifts-Content {
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    .Gifts-Content-Info {
+        margin-top: 40px;
+    }
+    .Gifts-Content-Text{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .Gifts-Content-Signature {
+        font-size: 55px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Gifts {
+        padding-top: 75px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .Gifts-Content-Text{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Gifts-Title {
+        font-size: 50px;
+    }
+    .Gifts-Content-Text{
+        font-size: 23px;
+        padding-bottom: 15px;
+    }
+    .Gifts-Content-Signature {
+        font-size: 50px;
+    }
+}

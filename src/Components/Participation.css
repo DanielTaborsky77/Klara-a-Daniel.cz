@@ -1,0 +1,298 @@
+.Participation {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Participation-Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 75px 80px 75px;
+    margin-right: -175px;
+    position: relative;
+}
+.Participation-Form-Title {
+    font-family: "Title";
+    font-size: 75px;
+    color: #5D768A;
+    padding-bottom: 50px;
+    padding-right: 10px;
+}
+.Participation-Form Form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Participation-Form-Item {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.Participation-Form-Item label {
+    font-family: "Regular";
+    font-size: 30px;
+    color: #5D768A;
+}
+.Participation-Form-Item select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 30px;
+    border: none;
+    font-family: "Regular";
+    border-bottom: 1px solid #5D768A;
+    color: black;
+    outline: none;
+}
+.Participation-Form-Item input {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 30px;
+    border: none;
+    font-family: "Regular";
+    border-bottom: 1px solid #5D768A;
+    outline: none;
+}
+input:-webkit-autofill, 
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #EFF6F3 inset !important; /* Bílé pozadí */
+    box-shadow: 0 0 0 1000px #EFF6F3 inset !important; /* Bílé pozadí */
+    color: black !important; /* Nastavení barvy textu */
+}
+.Participation-Form-Button {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Regular";
+    border: none;
+    background-color: #5D768A;
+    color: #EFF6F3;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.Participation-Info {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../Assets/Participation.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 850px;
+    height: 820px;
+}
+.Participation-Info-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+.Participation-Info-Text p {
+    font-size: 40px;
+    color: #EFF6F3;
+    font-family: 'Light';
+    background-color: rgba(255, 255, 255, 0);
+}
+.Participation-Info-Contact {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+.Participation-Info-Contact-Name {
+    font-size: 35px;
+    color: #EFF6F3;
+    font-family: 'Bold';
+    background-color: rgba(255, 255, 255, 0);
+}
+.Participation-Info-Contact-Tel {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+.Participation-Info-Contact-Tel img {
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.Participation-Info-Contact-Tel a {
+    margin-left: 10px;
+    font-size: 35px;
+    color: #EFF6F3;
+    font-family: 'SemiBold';
+    background-color: rgba(255, 255, 255, 0);
+}
+@media screen and (max-width: 2000px) {
+    .Participation-Form-Title {
+        font-size: 60px;
+    }
+    .Participation-Info {
+        width: 750px;
+        height: 720px;
+    }
+    .Participation-Info-Text p {
+        font-size: 30px;
+    }
+    .Participation-Info-Contact-Name {
+        font-size: 30px;
+    }
+    .Participation-Info-Contact-Tel img {
+        width: 50px;
+    }
+    .Participation-Info-Contact-Tel a {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .Participation {
+        flex-direction: column;
+    }
+    .Participation-Form {
+        margin-right: 0px;
+        margin-bottom: -150px;
+        padding: 10px 65px 70px 65px;
+    }
+    .Participation-Info {
+        padding-top: 100px;
+        padding-left: 0px;
+        width: 850px;
+        height: 600px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Participation-Form {
+        margin-bottom: -100px;
+        padding: 0px 50px 50px 50px;
+    }
+    .Participation-Form-Title {
+        font-size: 55px;
+    }
+    .Participation-Form-Item label {
+        font-size: 25px;
+    }
+    .Participation-Form-Item select {
+        font-size: 25px;
+    }
+    .Participation-Form-Item input {
+        font-size: 25px;
+    }
+    .Participation-Info {
+        width: 750px;
+        height: 520px;
+    }
+    .Participation-Info-Text p {
+        font-size: 25px;
+    }
+    .Participation-Info-Contact-Name {
+        font-size: 25px;
+    }
+    .Participation-Info-Contact-Tel img {
+        width: 45px;
+    }
+    .Participation-Info-Contact-Tel a {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Participation {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .Participation-Form Form{
+        width: 400px;
+    }
+    .Participation-Form-Item {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .Participation-Form-Button {
+        font-size: 23px;
+        padding: 10px 40px;
+    }
+    .Participation-Info {
+        padding-top: 75px;
+        width: 650px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Participation-Form{
+        width: 100%;
+    }
+    .Participation-Info {
+        padding-top: 125px;
+        width: 100%;
+        height: 450px;
+    }
+    .Participation-Info-Contact {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Participation-Form {
+        margin-bottom: -100px;
+        padding: 0px 0px 40px 0px;
+    }
+    .Participation-Form-Title {
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    .Participation-Form-Item {
+        width: 325px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .Participation-Form-Item label {
+        font-size: 23px;
+    }
+    .Participation-Form-Item select {
+        font-size: 23px;
+    }
+    .Participation-Form-Item input {
+        font-size: 23px;
+    }
+    .Participation-Form-Button {
+        font-size: 20px;
+        padding: 8px 40px;
+    }
+    .Participation-Info {
+        width: 100%;
+        height: 480px;
+    }
+    .Participation-Info-Text p {
+        font-size: 23px;
+    }
+    .Participation-Info-Contact-Name {
+        font-size: 23px;
+    }
+    .Participation-Info-Contact-Tel img {
+        width: 43px;
+    }
+    .Participation-Info-Contact-Tel a {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .Participation-Form Form{
+        width: 90%;
+    }
+    .Participation-Form-Item {
+        width: 100%;
+    }
+
+}
+
+

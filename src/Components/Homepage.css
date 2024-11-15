@@ -1,0 +1,128 @@
+.Homepage {
+    min-height: auto;
+}
+.Homepage-Top {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Homepage-Top-background-img {
+    width: 1900px;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.Homepage-Top-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #63553e80;
+    z-index: 2;
+}
+.Homepage-date {
+    top: 3%;
+    position: absolute;
+    z-index: 3;
+    background-color:#ffffff00;
+    color: white;
+    text-align: center;
+    font-family: "Number";
+    font-size: 75px;
+}
+.Homepage-Title {
+    top: 65%;
+    position: absolute;
+    z-index: 3;
+    color: white;
+    background-color:#ffffff00;
+    text-align: center;
+    font-family: "Title";
+    font-size: 150px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 2500px) {
+    .Homepage-Top-background-img {
+        width: 1450px;
+        height: 900px;
+    }
+}
+@media screen and (max-width: 2000px) {
+    .Homepage-Top-background-img {
+        width: 1150px;
+        height: 525px;
+    }
+    .Homepage-date {
+        position: absolute;
+        z-index: 3;
+        background-color:#ffffff00;
+        color: white;
+        text-align: center;
+        font-family: "Number";
+        font-size: 60px;
+    }
+    .Homepage-Title {
+        top: 60%;
+        position: absolute;
+        z-index: 3;
+        color: white;
+        background-color:#ffffff00;
+        text-align: center;
+        font-family: "Title";
+        font-size: 110px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Homepage-Top-background-img {
+        width: 1500px;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Homepage-Top-background-img {
+        height: 600px;
+    }
+    .Homepage-Title {
+        padding-left: 3px;
+        top: 65%;
+        font-size: 95px;
+    }
+    .Homepage-date {
+        top: 10%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Homepage-Top-background-img {
+        height: 550px;
+    }
+    .Homepage-Title {
+        font-size: 85px;
+        top: 58%;
+    }
+    .Homepage-date {
+        top: 15%;
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Homepage-Title {
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .Homepage-Title {
+        font-size: 64px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .Homepage-Title {
+        font-size: 60px;
+    }
+}

@@ -1,0 +1,91 @@
+.Timer {
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.Timer-Duo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.Timer-Item {
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Timer-Time {
+    font-family: 'Number';
+    font-size: 220px;
+    color: #5D768A;
+    overflow-y: hidden;
+    padding: 0px 12px;
+    height: 230px;
+}
+.Timer-Unit {
+    font-family: 'Title';
+    padding: 0 10px;
+    font-size: 70px;
+    color: #5D768A;
+}
+
+@media screen and (max-width: 2000px) {
+    .Timer {
+        width: 1000px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .Timer-Item {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Timer-Time {
+        font-family: 'Number';
+        font-size: 125px;
+        height: 125px;
+    }
+    .Timer-Unit {
+        font-family: 'Title';
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Timer {
+        width: 800px;
+    }
+    .Timer-Time {
+        font-size: 100px;
+        height: 105px;
+    }
+    .Timer-Unit {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Timer {
+        width: 75%;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .Timer-Duo {
+        justify-content: space-around;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Timer {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Timer {
+        width: 95%;
+    }
+}

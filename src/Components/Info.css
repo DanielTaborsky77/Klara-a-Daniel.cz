@@ -1,0 +1,54 @@
+.Info {
+    padding-top: 150px;
+    text-align: center;
+}
+.Info-Title {
+    font-family: "Title";
+    font-size: 75px;
+    color: #5D768A;
+}
+.Info-Item {
+    font-family: "Regular";
+    color: #5D768A;
+    font-size: 40px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 2000px) {
+    .Info {
+        padding-top: 100px;
+    }
+    .Info-Title {
+        font-size: 60px;
+    }
+    .Info-Item {
+        font-family: "Regular";
+        color: #5D768A;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Info-Title {
+        font-size: 55px;
+    }
+    .Info-Item {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Info {
+        padding-top: 75px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Info {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .Info-Title {
+        font-size: 50px;
+    }
+    .Info-Item {
+        font-size: 23px;
+    }
+}

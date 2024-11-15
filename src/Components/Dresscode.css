@@ -1,0 +1,103 @@
+.Dresscode {
+    padding-top: 200px;
+}
+.Dresscode-Title {
+    text-align: center;
+    font-family: "Title";
+    font-size: 75px;
+    color: #5D768A;
+}
+.Dresscode-Info {
+    margin: 0 auto;
+    width: 1100px;
+    text-align: center;
+    font-family: "Regular";
+    font-size: 40px;
+    color: #5D768A;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.Dresscode-Colors {
+    display: flex;
+    justify-content: center;
+}
+.Dresscode-Color {
+    width: 150px;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 2000px) {
+    .Dresscode-Title {
+        font-size: 60px;
+    }
+    .Dresscode-Info {
+        width: 800px;
+        font-size: 30px;
+        margin-bottom: 80px;
+    }
+    .Dresscode-Color {
+        width: 125px;
+        height: 300px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .Dresscode {
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Dresscode-Title {
+        font-size: 55px;
+    }
+    .Dresscode-Info {
+        width: 650px;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .Dresscode-Color {
+        width: 100px;
+        height: 250px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Dresscode {
+        padding-top: 75px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Dresscode-Info {
+        width: 90%;
+    }
+    .Dresscode-Color {
+        width: 75px;
+        height: 150px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Dresscode-Info {
+        margin-bottom: 35px;
+    }
+    .Dresscode-Color {
+        width: 50px;
+        height: 120px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Dresscode-Title {
+        font-size: 50px;
+    }
+    .Dresscode-Info {
+
+        font-size: 23px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+}
