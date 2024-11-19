@@ -2,7 +2,7 @@ import './Dresscode.css';
 
 const Dresscode = () => {
     return (
-        <div className="Dresscode">
+        <div className="Dresscode" id='Dresscode'>
             <p className='Dresscode-Title'>Dresscode</p>
             <p className='Dresscode-Info'>Není přesně určen dresscode, ale pokud byste chtěli být v barvách naší svatby můžete použít tyto</p>
             <div className='Dresscode-Colors'>

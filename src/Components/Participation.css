@@ -136,6 +136,18 @@ input:-webkit-autofill:active {
     .Participation-Form-Title {
         font-size: 60px;
     }
+    .Participation-Form-Item label {
+        font-size: 25px;
+    }
+    .Participation-Form-Item select {
+        font-size: 25px;
+    }
+    .Participation-Form-Item input {
+        font-size: 25px;
+    }
+    .Participation-Form-Button {
+        font-size: 25px;
+    }
     .Participation-Info {
         width: 750px;
         height: 720px;

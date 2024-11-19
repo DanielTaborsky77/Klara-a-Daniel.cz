@@ -10,7 +10,7 @@ import ProgramPhoto2 from '../Assets/IMG_9733.JPG';
 
 const Program = () => {
     return (
-        <div className='Program'>
+        <div className='Program' id='Program'>
             <p className='Program-Title'>Program</p>
             <div className='Program-Content'>
                 <div className='Program-Items'>

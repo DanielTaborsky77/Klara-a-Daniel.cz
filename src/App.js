@@ -1,3 +1,4 @@
+import Navigation from "./Components/Navigation/Navigation";
 import Homepage from "./Components/Homepage";
 import Photopage from "./Components/Photopage";
 import Info from "./Components/Info";
@@ -9,6 +10,7 @@ import Participation from "./Components/Participation";
 const App = () => {
   return (
     <div className="App">
+        <Navigation />
         <Homepage />
         <Photopage />
         <Info />

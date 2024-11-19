@@ -1,0 +1,137 @@
+.Navigation {
+    --white: #fafafa;
+    --background: var(--white);
+    --accent: #031F39;
+    min-height: 100vh;
+    z-index: 999;
+    position: fixed;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #021D31;
+    -webkit-border-radius: 1ex;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    -webkit-border-radius: 1ex;
+}
+::-webkit-scrollbar-corner {
+    background: rgba(255, 3, 3, 0.2);
+}
+.Menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+    background-color: #63553E;
+    padding-top: 100px;
+    transform: translateX(-100%);
+    will-change: transform;
+    padding-left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+.Menu-Link {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Light';
+    background-color: #63553E;
+    transition: transform 0.3s ease-in-out;
+}
+.Menu-Link:hover {
+    transform: scale(1.05);
+}
+
+.MenuToggle {
+    position: fixed;
+    outline: none;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    top: 18px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #63553E;
+    padding: 10px;
+}
+.MenuToggle-Links{
+    background-color: #63553E;
+    width: 30px;
+    height: 30px;
+}
+@media only screen and (max-width: 2000px){
+    .Menu {
+        width: 400px;
+        padding-top: 75px;
+        padding-left: 50px;
+    }
+    .Menu-Link {
+        margin-top: 30px;
+        font-size: 23px;
+    }
+    .MenuToggle {
+        width: 50px;
+        height: 50px;
+    }
+    .MenuToggle-Links{
+        width: 23px;
+        height: 18px;
+        viewBox: 0 0 23 18;
+    }
+    .Menu-Link-Img{
+        width: 30px;
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-height: 700px) and (max-width: 2000px) {
+    .Menu {
+        height: 100%;
+        border-radius: 0px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        padding-bottom: 50px;
+    }
+    .Menu-Link {
+        margin-top: 30px;
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .Menu {
+        width: 100%;
+        padding-top: 75px;
+        padding-left: 50px;
+    }
+    .Menu-Link {
+        margin-top: 25px;
+        font-size: 23px;
+    }
+    .MenuToggle {
+        width: 50px;
+        height: 50px;
+    }
+    .MenuToggle-Links{
+        width: 23px;
+        height: 18px;
+        viewBox: 0 0 23 18;
+    }
+    .Menu-Link-Img{
+        width: 30px;
+        margin-right: 30px;
+    }
+}

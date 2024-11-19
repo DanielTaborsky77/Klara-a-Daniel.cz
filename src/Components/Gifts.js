@@ -3,7 +3,7 @@ import GiftsPicture from '../Assets/IMG_9562_Mod.png';
 
 const Gifts = () => {
     return (
-        <div className='Gifts'>
+        <div className='Gifts' id='Gifts'>
             <p className='Gifts-Title'>Dary</p>
             <div className='Gifts-Content'>
                 <div className='Gifts-Content-Info'>

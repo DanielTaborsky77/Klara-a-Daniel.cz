@@ -53,7 +53,7 @@ const Participation = () => {
     };
 
     return (
-        <div className='Participation'>
+        <div className='Participation' id='Participation'>
             <div className='Participation-Form'>
                 <p className='Participation-Form-Title'>Potvrďte svou účast</p>
                 <form onSubmit={handleSubmit}>

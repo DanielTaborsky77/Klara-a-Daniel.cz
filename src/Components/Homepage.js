@@ -4,7 +4,7 @@ import MainPhoto from "../Assets/IMG_9823.JPG";
 
 const Homepage = () => {
     return (
-        <div className="Homepage">
+        <div className="Homepage" id='Homepage'>
             <div className="Homepage-Top">
                 <div className='Homepage-date'>06.09.2025</div>
                 <div className='Homepage-Title'>Klára & Daniel</div>
