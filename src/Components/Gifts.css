@@ -1,5 +1,6 @@
 .Gifts {
-    padding-top: 300px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .Gifts-Title {
     font-family: "Title";
@@ -133,7 +134,8 @@
 }
 @media screen and (max-width: 1150px) {
     .Gifts {
-        padding-top: 300px;
+        padding-top: 50px;
+        padding-bottom: 0px;
     }
     .Gifts-Content {
         align-items: center;

@@ -1,5 +1,6 @@
 .Program {
     padding-top: 150px;
+    padding-bottom: 250px;
 }
 .Program-Title {
     font-family: "Title";
@@ -123,6 +124,7 @@
 @media screen and (max-width: 800px) {
     .Program {
         padding-top: 75px;
+        padding-bottom: 0px;
     }
 }
 @media screen and (max-width: 450px) {
