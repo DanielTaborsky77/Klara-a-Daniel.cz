@@ -1,3 +1,74 @@
+.Modal {
+    position: fixed;
+    top: -100%; /* Začne mimo obrazovku nahoře */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 650px;
+    background: #EFF6F3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+    padding: 20px;
+    transition: all 0.7s ease-in-out;
+}
+
+.Modal.slide-in {
+    animation: slideIn 1s forwards; /* Příchod s animací */
+}
+
+.Modal.slide-out {
+    animation: slideOut 1s forwards; /* Odchod s animací */
+}
+
+/* Klíčové snímky pro nájezd */
+@keyframes slideIn {
+    0% {
+        top: -100%; /* Začíná mimo obrazovku nahoře */
+        opacity: 0;
+    }
+    100% {
+        top: 20px; /* Konečná pozice */
+        opacity: 1;
+    }
+}
+
+/* Klíčové snímky pro výjezd */
+@keyframes slideOut {
+    0% {
+        top: 20px; /* Začíná na viditelné pozici */
+        opacity: 1;
+    }
+    100% {
+        top: -100%; /* Konečná pozice mimo obrazovku nahoře */
+        opacity: 0;
+    }
+}
+.Modal-Content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Modal-Title {
+    font-family: "Bold";
+    color: #606B5B;
+    font-size: 40px;
+    text-align: center;
+}
+.Modal-Subtitle {
+    margin-top: 40px;
+    font-family: "Regular";
+    color: #606B5B;
+    font-size: 35px;
+    text-align: center;
+}
+.Modal-Signature {
+    font-family: "Title";
+    color: #606B5B;
+    font-size: 45px;
+    text-align: center;
+}
+
+
 .Participation {
     padding-top: 150px;
     padding-bottom: 150px;
@@ -133,6 +204,30 @@ input:-webkit-autofill:active {
     background-color: rgba(255, 255, 255, 0);
 }
 @media screen and (max-width: 2000px) {
+    .Modal {
+        max-width: 600px;
+    }
+    .Modal.slide-in {
+        top: 20px; /* Pozice při zobrazení */
+    }
+    .Modal.slide-out {
+        top: -100%;
+    }
+    .Modal-Content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .Modal-Title {
+        font-size: 35px;
+    }
+    .Modal-Subtitle {
+        margin-top: 35px;
+        font-size: 30px;
+    }
+    .Modal-Signature {
+        font-size: 40px;
+    }
+
     .Participation-Form-Title {
         font-size: 60px;
     }
@@ -182,6 +277,29 @@ input:-webkit-autofill:active {
     }
 }
 @media screen and (max-width: 1000px) {
+    .Modal {
+        max-width: 500px;
+    }
+    .Modal.slide-in {
+        top: 20px; /* Pozice při zobrazení */
+    }
+    .Modal.slide-out {
+        top: -100%;
+    }
+    .Modal-Content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .Modal-Title {
+        font-size: 30px;
+    }
+    .Modal-Subtitle {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .Modal-Signature {
+        font-size: 35px;
+    }
     .Participation-Form {
         margin-bottom: -100px;
         padding: 0px 50px 50px 50px;
@@ -253,6 +371,30 @@ input:-webkit-autofill:active {
     }
 }
 @media screen and (max-width: 450px) {
+    .Modal {
+        width: 100%;
+    }
+    .Modal.slide-in {
+        top: 20px; /* Pozice při zobrazení */
+    }
+    .Modal.slide-out {
+        top: -100%;
+    }
+    .Modal-Content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .Modal-Title {
+        font-size: 25px;
+    }
+    .Modal-Subtitle {
+        margin-top: 25px;
+        font-size: 23px;
+    }
+    .Modal-Signature {
+        font-size: 33px;
+    }
+
     .Participation-Form {
         margin-bottom: -100px;
         padding: 0px 0px 40px 0px;
