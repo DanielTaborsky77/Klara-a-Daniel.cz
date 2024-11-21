@@ -9,16 +9,31 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Funkce pro přidání záznamu do CSV souboru
+const updateTotalDeclinedCount = (fileName, count) => {
+    fs.readFile(fileName, 'utf8', (err, data) => {
+        let totalCount = 0;
 
+        if (!err && data.trim()) {
+            totalCount = parseInt(data, 10) || 0;
+        }
+
+        totalCount += parseInt(count, 10);
+
+        fs.writeFile(fileName, totalCount.toString(), 'utf8', (err) => {
+            if (err) {
+                console.error(`Chyba při zapisování do ${fileName}:`, err);
+            }
+        });
+    });
+};
 const updateTotalCount = (fileName, count) => {
     fs.readFile(fileName, 'utf8', (err, data) => {
         let totalCount = 0;
         
         if (!err && data) {
-            totalCount = parseInt(data, 10) || 0; // Načtení aktuálního součtu nebo nastavení na 0 při chybě
+            totalCount = parseInt(data, 10) || 0;
         }
-        
-        totalCount += count; // Přičtení nového počtu účastníků
+        totalCount += parseInt(count, 10);
         
         fs.writeFile(fileName, totalCount.toString(), (err) => {
             if (err) {
@@ -51,6 +66,7 @@ app.post('/participation', (req, res) => {
         updateTotalCount('total_count.txt', count); // Aktualizace celkového počtu
     } else if (decision === 'Nezúčastní se') {
         appendToCSV('Declined.csv', data);
+        updateTotalDeclinedCount('total_declined_count.txt', count); // Aktualizace celkového počtu "Nezúčastní se"
     } else {
         return res.status(400).json({ error: 'Nesprávná hodnota pro rozhodnutí účasti.' });
     }
