@@ -4,7 +4,7 @@ const Dresscode = () => {
     return (
         <div className="Dresscode" id='Dresscode'>
             <p className='Dresscode-Title'>Dresscode</p>
-            <p className='Dresscode-Info'>Není přesně určen dresscode, ale pokud byste chtěli být v barvách naší svatby můžete použít tyto</p>
+            <p className='Dresscode-Info'>Pokud byste se chtěli sladit s barvami naší svatby, můžete použít tyto.</p>
             <div className='Dresscode-Colors'>
                 <div className='Dresscode-Color' style={{backgroundColor:"#98B2C8"}}></div>
                 <div className='Dresscode-Color' style={{backgroundColor:"#5D768A"}}></div>

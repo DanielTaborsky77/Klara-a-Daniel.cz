@@ -41,8 +41,8 @@ const Participation = () => {
             if (response.ok) {
                 if (decision === 'Zúčastní se') {
                     setModalContent({
-                        line1: 'Děkujeme Vám za potvrzení účasti',
-                        line2: 'Budeme se na Vás těšit.',
+                        line1: 'Děkujeme za potvrzení účasti',
+                        line2: 'Budeme se na vás těšit.',
                     });
                 } else {
                     setModalContent({

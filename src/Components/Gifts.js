@@ -9,7 +9,7 @@ const Gifts = () => {
                 <div className='Gifts-Content-Info'>
                     <p className='Gifts-Content-Text'>
                         Pokud nám budete chtít něco darovat do našeho společného života,
-                        z praktických důvodů bychom nejvíce ocenili a byli moc vděční za peněžní dar.
+                        z praktických důvodů bychom nejvíce ocenili peněžní dar.
                     </p>
                     <p className='Gifts-Content-Signature'>Klára a Daniel</p>
                     
